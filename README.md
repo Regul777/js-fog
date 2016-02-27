@@ -30,7 +30,7 @@ npm install js-fox --save-dev
 ```
 
 ```js
-grunt.loadNpmTasks('jsfox');
+grunt.loadNpmTasks('js-fox');
 ```
 
 ## Options (bold values are default)
@@ -63,6 +63,9 @@ Default Options:
 ### Grunt
 
 ```js
+
+grunt.loadNpmTasks('js-fox');
+
 grunt.initConfig({
   clean: {
     output: 'test/output'
@@ -88,7 +91,7 @@ grunt.initConfig({
 });
 ```
 
-### Call
+### Node
 
 ```js
 var jsFox = require('js-fox');

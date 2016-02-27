@@ -22,6 +22,9 @@
     "jsfox",
     "js-fox",
     "fox",
+    "grunt",
+    "gruntplugin",
+    "grunt-plugin",
     "gulpplugin"
   ],
   "author": "Yakovenko Dmitriy (https://github.com/Regul777)",
