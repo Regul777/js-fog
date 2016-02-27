@@ -6,18 +6,22 @@ http://jsfoxguard.com/).
 
 ---
 
-### Command-line tool:
+## Command-line tool:
 
 ```
 npm install -g js-fox
+```
+```
 echo 'var a="test";' | jsfox
 var _9g=['\x74\x65\x73\x74'];var a=_9g[0];
 ```
 
-### npm package:
+## npm package:
 
 ```
 npm install js-fox --save
+```
+```
 var jsFox = require('js-obfuscator');
 jsFox (<string> jsSourceCode [, <object> options ] )
 Returns: a Q promise.
